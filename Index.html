@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Time Tracker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/index.css">
+    <script src='js/Index.js'></script>
+</head>
+<body>
+    <div class="topBar">
+        <div>
+            Time Tracker
+            
+        </div>
+    </div>
+     
+    <div class="Loginpage">
+        <div class="rightSec">
+            <img src="img/homeBackground.jpg" width="500px">
+        </div>
+
+        <div class="leftSec">
+            Add New Entry
+            <input type="text" class="userInput" placeholder="show" id="show">
+
+            <br>
+            <input type="text" class="userInput" placeholder="date" id="date">
+            <input type="text" class="userInput" placeholder="month" id="month"> 
+            <input type="text" class="userInput" placeholder="year" id="year">
+            <br>
+            <input type="text" class="userInput" placeholder="startHour" id="startHour">
+            <input type="text" class="userInput" placeholder="startMinute" id="startMinute">
+            <input type="text" class="userInput" placeholder="taskNo" id="taskNo">
+            <br>
+            <input type="text" class="userInput" placeholder="endHour" id="endHour">
+            <input type="text" class="userInput" placeholder="endMinute" id="endMinute">
+            <input type="text" class="userInput" placeholder="taskName" id="taskName">
+            <br>
+            <input type="text"  class="userInputLarge" placeholder="description" id="description">
+            <div class="button">
+                <div class="button" onclick="addEntry();">Add Entry</div>
+            </div>
+        </div>
+        <img src="img/Login.jpg" class="loginimageMedia">
+    </div>
+</body>
+</html>
