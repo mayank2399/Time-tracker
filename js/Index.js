@@ -1,4 +1,4 @@
-var host="http://localhost:8080";
+var host="https://mayanksinha-springproject.herokuapp.com"
 function addEntry() {
     var request = new XMLHttpRequest()
 

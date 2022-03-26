@@ -1,4 +1,4 @@
-var host = "http://localhost:8080";
+var host="https://mayanksinha-springproject.herokuapp.com"
 var userId = "mayanksinha2399@gmail.com"
 function monthlyReportWithShow() {
     document.getElementById("monthlyWithShow").innerHTML = "";
