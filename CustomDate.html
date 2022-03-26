@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Custom date</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/Custom.css'>
+    <script src='js/custom.js'></script>
+
+</head>
+<body>
+    <!-- <input type="text" class="userInput" placeholder="date" id="date"> -->
+    <input type="text" class="userInput" placeholder="startMonth" id="startMonth"> 
+    <input type="text" class="userInput" placeholder="startYear" id="startYear">
+    <br>
+    <br>
+    <!-- <input type="text" class="userInput" placeholder="date" id="date"> -->
+    <input type="text" class="userInput" placeholder="endMonth" id="endMonth"> 
+    <input type="text" class="userInput" placeholder="endYear" id="endYear">  
+   
+    <div class="button" onclick="customReportWithoutShow();">Without show</div>
+    <br>
+    <table id="monthlyWithoutShow" class="table">
+        <thead>
+            <th>Date</th>
+            <th>month</th>
+            <th>Year</th>
+            <th>Worked Hours</th>
+            <th>Extra Hours</th>
+            <th>Low Hours</th>
+            <th>More Info</th>
+        </thead>
+    </table>
+    <br><br>
+    <div class="button" onclick="customReportWithShow();">With show</div>
+
+
+    <br>
+    <table id="monthlyWithShow" class="table">
+        <thead>
+            <th>Date</th>
+            <th>month</th>
+            <th>Year</th>
+            <th>Worked Hours</th>
+            <th>Extra Hours</th>
+            <th>Low Hours</th>
+            <th>More Info</th>
+        </thead>
+    </table>
+    <br>
+</body>
+</html>

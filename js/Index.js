@@ -33,14 +33,15 @@ function addEntry() {
 
 
     var params = '{"date":' + date + ',"month":' + month + ',"year":' + year + ',"startHour":' + startHour + ',"startMinute":' + startMinute + ',"endHour":' + endHour + ',"endMinute":' + endMinute + ',"description":"' + description + '","userId":"' + userId + '","taskName":"' + taskName + '","taskNo":"' + taskNo + '","show":' + show + '}';
-    var body = JSON.stringify(params);
     console.log(params)
     request.onload = function () {
 
         var data = JSON.parse(this.response)
         console.log(data);
+        
     }
 
+    
     // Send request
     request.send(params);
 }

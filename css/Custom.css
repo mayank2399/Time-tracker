@@ -1,0 +1,21 @@
+.button
+{
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
+    background-color: rgb(61, 14, 233);
+    width: 30%;
+    color: white;
+    /* align-items: center; */
+    cursor: pointer;
+    justify-content: center;
+
+}
+table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
