@@ -1,4 +1,4 @@
-var host="https://mayanksinha-springproject.herokuapp.com"
+var host="https://mayanksinha-springprojects.herokuapp.com"
 var userId = "mayanksinha2399@gmail.com"
 function customReportWithShow() {
     document.getElementById("monthlyWithShow").innerHTML = "";

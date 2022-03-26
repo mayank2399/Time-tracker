@@ -1,4 +1,4 @@
-var host="https://mayanksinha-springproject.herokuapp.com"
+var host="https://mayanksinha-springprojects.herokuapp.com"
 function addEntry() {
     var request = new XMLHttpRequest()
 
